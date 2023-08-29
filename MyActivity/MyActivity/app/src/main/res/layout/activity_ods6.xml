@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ODS6Activity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/ods_6"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:text="Objetivo 6. Assegurar a disponibilidade e gestão sustentável da água e saneamento para todas e todos  "
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:text="6.1 Até 2030, alcançar o acesso universal e equitativo a água potável e segura para todos  "
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:text="6.2 Até 2030, alcançar o acesso a saneamento e higiene adequados e equitativos para todos, e acabar com a defecação a céu aberto, com especial atenção para as necessidades das mulheres e meninas e daqueles em situação de vulnerabilidade  "
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:text="6.3 Até 2030, melhorar a qualidade da água, reduzindo a poluição, eliminando despejo e minimizando a liberação de produtos químicos e materiais perigosos, reduzindo à metade a proporção de águas residuais não tratadas e aumentando substancialmente a reciclagem e reutilização segura globalmente  "
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <Button
+        android:id="@+id/btnvoltar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="644dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
